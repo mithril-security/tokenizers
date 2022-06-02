@@ -209,7 +209,7 @@ impl UnigramTrainer {
                 }
             }
         }
-        let suffix = esaxx_rs::suffix(&flat_string).unwrap();
+        let suffix = esaxx_rs::suffix_rs(&flat_string).unwrap();
 
         //  Basic chars need to be in sentence pieces.
         let mut seed_sentencepieces: Vec<SentencePiece> = vec![];
